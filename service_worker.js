@@ -14,7 +14,6 @@ self.addEventListener("install", function(event) {
                 "/js/main.js",
                 "/js/restaurant_info.js",
                 "/js/idb_util.js",
-                "/js/service_worker.js",
                 "/img/*"
             ]).catch(error => {});
         })
